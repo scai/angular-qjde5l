@@ -1,0 +1,22 @@
+.nav-bar {
+  background-color : #CCC;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin: 0.5em 1em 0.5em 1em ;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

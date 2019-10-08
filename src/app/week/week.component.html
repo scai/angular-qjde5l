@@ -1,0 +1,13 @@
+<div class="search-button"><i class="material-icons">search</i></div>
+<div class="filter-button"><i class="material-icons">tune</i></div>
+<h2>Nov 2019 <i class="material-icons">calendar_today</i></h2>
+<div class="calendar">
+<ul class="week-header">
+  <li *ngFor="let num of [0,1,2,3,4,5,6,7]"
+    [class.selected]="isSelected[num]" (click)=onSelect(num)>{{days[num]}}</li>
+</ul>
+
+<ul class="days">
+  <li *ngFor="let num of [0,1,2,3,4,5,6,7]" [class.selected]="isSelected[num]" (click)=onSelect(num)>{{dates[num]}}</li>
+</ul>
+</div>

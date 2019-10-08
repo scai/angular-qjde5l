@@ -1,0 +1,35 @@
+h2 {
+  text-align: center;
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+
+h2 i {
+  margin-left: 0.5em;
+}
+
+.calendar {
+  width: 100%;
+  cursor: default;
+}
+
+li {
+  display: inline-block;
+  width: 4em;
+  text-align: center;
+}
+
+li.selected {
+  color: palevioletred;
+}
+
+.search-button {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+.filter-button {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
